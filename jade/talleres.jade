@@ -1,0 +1,44 @@
+extends templates/template
+block banner
+  img(src="img/servicios_1.jpg", alt="servicios")
+block contenido
+  .container
+    .row
+      .col-md-9
+        .main-wrap
+          
+          h2 Talleres:
+          h3 Objetivo:
+          img( class="pull-right" src="img/jovenes1-300x300.jpg", alt="equipo")
+          p Los talleres buscan desarrollar los conocimientos y capacidades de los participantes para afrontar la etapa académica, ya sea técnica o universitaria, y, más adelante, la etapa de incorporación al sector laboral. 
+          
+          h3 Talleres que Desarrollamos:
+          h4 Taller de Desarrollo Personal:
+          p Es un proceso de transformación mediante el cual una persona  adopta nuevas ideas o formas de pensamiento, que le permiten generar nuevos comportamientos y actitudes, que dan como resultado un mejoramiento de su calidad de vida.
+          p Condición: Estar pasando por un cierto grado de insatisfacción con lo que hacemos o estar en una situación de vida lo suficientemente incómoda, para salir de su zona de confort.
+          
+          h5 Actividades:
+          ol
+            li Se centran en la práctica grupal, como un espacio de crecimiento personal desde un aprendizaje experiencial.
+            li Dicha práctica da especial importancia a la experiencia presente: “aquí y ahora”.
+            li El proceso se encamina hacia el autoconocimiento, la satisfacción y el autoapoyo; es decir, lograr que la persona se haga responsable de sí misma, de lo que siente, lo que piensa y lo que hace; y que logre integrarlo.
+            li La práctica de la escucha y autoobservación ayuda a descubrir en qué áreas fluye la persona, y en cuales se bloquea.
+            li El conocerse tanto a uno mismo, como a sus propios límites, es lo que le permitirá una mejor calidad de vida.
+          
+          h5 Orientado a:
+          ol
+            li Elevar nuestro nivel de consciencia
+            li Detectar creencias y pensamientos limitadores
+            li Mejorar las habilidades sociales
+            li Crear “Experiencias”
+            li Comenzar a emprender con acciones
+          
+          img( class="pull-right" src="img/5CE-300x225.jpg", alt="equipo")
+          h4 Taller de Autoestima:
+          p Los sentimientos que tenemos hacia nosotros mismos influyen en cómo vivimos nuestras vidas. Las personas que sienten que se les quiere y aprecia (en otras palabras, las personas que tienen la autoestima alta) tienen mejores relaciones sociales.  Son más proclives a pedir ayuda y apoyo a los amigos y la familia cuando la necesiten. Las personas que creen que pueden alcanzar sus objetivos y solucionar problemas tienden a rendir más en los estudios. Tener una buena autoestima te permite aceptarte a ti mismo y vivir la vida de forma plena.
+          
+          img(class="banner" src="img/banner_013.jpg", alt="Datos de contacto")
+      
+      .col-md-3
+        .side-wrap
+          include blocks/side-wrap

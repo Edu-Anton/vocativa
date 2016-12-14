@@ -1,3 +1,31 @@
 extends templates/template
+
+append config
+  -sitio = "Inicio"
+  -var _index ="active"
 block banner
   img(src="img/banner_01.jpg", alt="nosotros")
+    
+block contenido
+  .container
+    .row
+      .col-md-3.main-wrap
+          img(class="nuestros-servicios" src="img/icono-elegido.jpg", alt="encabezado")
+          img(class="pull-left" src="img/s-p-3.jpg", alt="sesión")
+          h4.titulo-h4 Asesoría Vocacional
+          p Un espacio para el descubrimiento personal y un contacto más profundo con tu vocación. 
+          img(class="pull-left" src="img/s-p-1.jpg", alt="sesión")
+          h4.titulo-h4 Talleres de crecimiento
+          p Desarrolla tus habilidades para una vida académica y laboral más satisfactoria.
+      
+      
+      .col-md-9
+        .main-wrap
+          img(class="pull-left" src="img/v-2.jpg", alt="sesión")
+          h4.titulo-h4 Acerca de nosotros:
+          p Somos una organización conformada por Psicólogos, especializados en el asesoramiento vocacional orientados y comprometidos a ayudarle para la correcta elección de una carrera profesional, promoviendo el conocimiento de sí mismo, para el desarrollo y crecimiento personal.
+          h4.titulo-h4 Nuestro compromiso:
+          p Brindamos recursos y soluciones eficaces a través de nuestros servicios como: Evaluaciones Psicológicas, Asesoramiento Vocacional y los diversos talleres que brindamos para ayudarlos en el proceso de decisión vocacional.
+          img(class="pull-left" src="img/v-1.jpg", alt="sesión")
+          h4.titulo-h4 Nuestros talleres:
+          p El objetivo de nuestros talleres es desarrollar los conocimientos y capacidades de los participantes para afrontar la etapa académica, ya sea técnica o universitaria, y, más adelante, la etapa de incorporación al sector laboral.

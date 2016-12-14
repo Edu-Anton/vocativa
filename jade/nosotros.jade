@@ -1,12 +1,17 @@
 extends templates/template
+
+append config
+  -sitio = "Nosotros"
+  -var _nosotros ="active"
+  
 block banner
+  
   img(src="img/nosotros.jpg", alt="nosotros")
 block contenido
   .container
     .row
       .col-md-9
         .main-wrap
-          
           h2 QUIÉNES SOMOS:
           img( class="pull-right" src="img/equipment-of-word-300x199.jpg", alt="equipo")
           p  Vocativa, es una organización conformada por Psicólogos, especializados en el asesoramiento vocacional orientados y comprometidos a ayudarle para la correcta elección de una carrera profesional promoviendo el conocimiento de sí mismo, para el desarrollo y crecimiento personal.

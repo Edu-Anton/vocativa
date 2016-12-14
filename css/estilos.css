@@ -42,7 +42,11 @@ header {
 }
 
 .navbar li:hover {
-  background-color: #97d133;
+  background-color: #89bf2b;
+}
+
+.active > a {
+  background-color: #97d133 !important;
 }
 
 .dropdown-menu {
@@ -81,9 +85,27 @@ header {
   text-transform: uppercase;
 }
 
+.main-wrap .titulo-h4 {
+  font-size: .97em;
+  font-weight: bold;
+  line-height: 27px;
+}
+
 .main-wrap .banner {
   width: 100%;
   margin-top: 20px;
+}
+
+.main-wrap img.pull-left {
+  margin-right: 20px;
+}
+
+.main-wrap img.pull-right {
+  margin-left: 20px;
+}
+
+.main-wrap .nuestros-servicios {
+  margin-bottom: 20px;
 }
 
 .titulo-panel {
